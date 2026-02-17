@@ -1,0 +1,40 @@
+
+version: 2
+
+models:
+  - name: dim_products
+    description: "Dimension table for products with English translations"
+    columns:
+      - name: product_id
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_customers
+    description: "Dimension table for customers"
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+
+  - name: fct_orders
+    description: "Fact table for orders, aggregated to order level"
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_customers')
+              field: customer_id
+      - name: item_value
+        description: "Total value of items in the order"
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+      - name: total_amount
+        description: "Total payment amount for likelihood of matching item value + freight"

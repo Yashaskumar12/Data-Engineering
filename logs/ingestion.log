@@ -1,0 +1,40 @@
+2026-02-17 21:32:01 - olist_ingestion - INFO - Connecting to DuckDB at C:\Users\E.Gagan\OneDrive\Documents\DATA ENGINEERING\ingestion\olist.db...
+2026-02-17 21:32:01 - olist_ingestion - INFO - Successfully connected to DuckDB
+2026-02-17 21:32:01 - olist_ingestion - INFO - Starting ingestion for file: olist_orders_dataset.csv
+2026-02-17 21:32:01 - olist_ingestion - INFO - Loading olist_orders_dataset.csv into bronze_orders...
+2026-02-17 21:32:01 - olist_ingestion - INFO - Successfully loaded olist_orders_dataset.csv: 99,441 rows
+2026-02-17 21:32:01 - olist_ingestion - INFO - Starting ingestion for file: olist_order_items_dataset.csv
+2026-02-17 21:32:01 - olist_ingestion - INFO - Loading olist_order_items_dataset.csv into bronze_order_items...
+2026-02-17 21:32:02 - olist_ingestion - INFO - Successfully loaded olist_order_items_dataset.csv: 112,650 rows
+2026-02-17 21:32:02 - olist_ingestion - INFO - Starting ingestion for file: olist_products_dataset.csv
+2026-02-17 21:32:02 - olist_ingestion - INFO - Loading olist_products_dataset.csv into bronze_products...
+2026-02-17 21:32:02 - olist_ingestion - INFO - Successfully loaded olist_products_dataset.csv: 32,951 rows
+2026-02-17 21:32:02 - olist_ingestion - INFO - Starting ingestion for file: olist_sellers_dataset.csv
+2026-02-17 21:32:02 - olist_ingestion - INFO - Loading olist_sellers_dataset.csv into bronze_sellers...
+2026-02-17 21:32:02 - olist_ingestion - INFO - Successfully loaded olist_sellers_dataset.csv: 3,095 rows
+2026-02-17 21:32:02 - olist_ingestion - INFO - Starting ingestion for file: olist_customers_dataset.csv
+2026-02-17 21:32:02 - olist_ingestion - INFO - Loading olist_customers_dataset.csv into bronze_customers...
+2026-02-17 21:32:02 - olist_ingestion - INFO - Successfully loaded olist_customers_dataset.csv: 99,441 rows
+2026-02-17 21:32:02 - olist_ingestion - INFO - Starting ingestion for file: olist_order_payments_dataset.csv
+2026-02-17 21:32:02 - olist_ingestion - INFO - Loading olist_order_payments_dataset.csv into bronze_order_payments...
+2026-02-17 21:32:02 - olist_ingestion - INFO - Successfully loaded olist_order_payments_dataset.csv: 103,886 rows
+2026-02-17 21:32:02 - olist_ingestion - INFO - Starting ingestion for file: olist_order_reviews_dataset.csv
+2026-02-17 21:32:02 - olist_ingestion - INFO - Loading olist_order_reviews_dataset.csv into bronze_order_reviews...
+2026-02-17 21:32:02 - olist_ingestion - INFO - Successfully loaded olist_order_reviews_dataset.csv: 99,224 rows
+2026-02-17 21:32:02 - olist_ingestion - INFO - Starting ingestion for file: olist_geolocation_dataset.csv
+2026-02-17 21:32:02 - olist_ingestion - INFO - Loading olist_geolocation_dataset.csv into bronze_geolocation...
+2026-02-17 21:32:03 - olist_ingestion - INFO - Successfully loaded olist_geolocation_dataset.csv: 1,000,163 rows
+2026-02-17 21:32:03 - olist_ingestion - INFO - Starting ingestion for file: product_category_name_translation.csv
+2026-02-17 21:32:03 - olist_ingestion - INFO - Loading product_category_name_translation.csv into bronze_product_category_translation...
+2026-02-17 21:32:03 - olist_ingestion - INFO - Successfully loaded product_category_name_translation.csv: 71 rows
+2026-02-17 21:32:03 - olist_ingestion - INFO - ================================================================================
+2026-02-17 21:32:03 - olist_ingestion - INFO - INGESTION SUMMARY
+2026-02-17 21:32:03 - olist_ingestion - INFO - ================================================================================
+2026-02-17 21:32:03 - olist_ingestion - INFO - Total files processed: 9
+2026-02-17 21:32:03 - olist_ingestion - INFO - Successful: 9
+2026-02-17 21:32:03 - olist_ingestion - INFO - Failed: 0
+2026-02-17 21:32:03 - olist_ingestion - INFO - Total rows loaded: 1,550,922
+2026-02-17 21:32:03 - olist_ingestion - INFO - 
+Successful files:
+2026-02-17 21:32:03 - olist_ingestion - INFO - ================================================================================
+2026-02-17 21:32:03 - olist_ingestion - INFO - DuckDB connection closed

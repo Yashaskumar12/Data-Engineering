@@ -1,0 +1,10 @@
+
+olist_project:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      # Path to the DuckDB file created by ingestion script
+      # We use partial path assuming running from dbt_project folder
+      path: '../ingestion/olist.db'
+      threads: 4
