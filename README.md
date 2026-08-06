@@ -1,6 +1,6 @@
 # Olist ERP Analytics - Complete Data Engineering Project
 
-A **100% FREE** data engineering project using the Olist Brazilian E-Commerce dataset. No cloud signups, no credit cards, no costs!
+A **100% FREE** data engineering project using the Olist Brazilian E-Commerce dataset. No cloud signups, no credit cards, no costs.
 
 ## 🎯 What This Project Does
 
@@ -93,10 +93,10 @@ After running the ingestion, you'll have:
    - `bronze_geolocation` (1,000,163 rows)
    - `bronze_product_category_translation` (71 rows)
 
-2. **Complete data pipeline** for your portfolio
-3. **Ready for dbt transformations** (Silver/Gold layers)
+2. Complete data pipeline for your portfolio
+3. Ready for dbt transformations (Silver/Gold layers)
 
-## 🎓 Perfect For
+## 🎓 Perfect For:
 
 - **Data Engineering students**: Learn real-world pipelines
 - **Portfolio projects**: Showcase modern data stack skills
