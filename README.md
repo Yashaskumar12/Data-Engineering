@@ -28,7 +28,7 @@ This will:
 - Install all dependencies (DuckDB, pandas, kagglehub)
 - Create configuration files
 
-### Step 3: Run Ingestion
+### Step 3: Run Ingestions
 
 ```bash
 run_ingestion.bat
